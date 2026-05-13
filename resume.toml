@@ -1,0 +1,183 @@
+[identity]
+name = "Amit Srivastava"
+location = "Sacramento, CA"
+email = "amitkumar.srivastava42@gmail.com"
+linkedin = "linkedin.com/in/srivastava-ami"
+github = "github.com/nex-ovia"
+tag = "CX Engineering Leader · Author of NXS · Building Nex-Ovia"
+
+[summary]
+text = "I build the systems and teams that make enterprise software delivery actually work. 13 years across implementation, solutions engineering, and customer success at global SaaS companies, building and mentoring technical teams across continents and driving $1M+ in recurring ARR through AI automation and delivery engineering. Author of NXS, an open source standard I built because I got tired of seeing the same delivery problems repeat everywhere."
+
+[[impact]]
+number = "$1M+ ARR"
+label = "Recurring revenue protected and grown"
+
+[[impact]]
+number = "40%"
+label = "Reduction in escalation response time"
+
+[[impact]]
+number = "30%"
+label = "Reduction in manual support interventions"
+
+[[impact]]
+number = "18%"
+label = "Faster enterprise onboarding"
+
+[[impact]]
+number = "35%"
+label = "Reduction in customer service costs"
+
+[[impact]]
+number = "95%"
+label = "Software release process automated"
+
+[[experience]]
+title = "Implementation Team Manager"
+company = "Keywords US Holdings Inc (Helpshift) · US"
+start = "Jan 2024"
+end = "Present"
+context = "Built and mentored a globally distributed team across US, India, and Poland. Previously managed 5, supporting one team member through their next career move. Full personnel authority across delivery, performance, and career development."
+bullets = [
+  "Led end-to-end enterprise implementation of Helpshift across strategic accounts, standardizing delivery frameworks across all deployments",
+  "Drove 25% increase in customer engagement through AI-driven automation and seamless platform integrations",
+  "Designed automation frameworks reducing manual support escalations by 30% and improving resolution times",
+  "Reduced critical escalation response time by 40% through structured triage and AI-assisted routing",
+  "Built and deployed AI-powered bots, smart intents, automations, and FAQ systems driving self-service efficiency",
+  "Led cross-platform integrations with Salesforce, Zendesk, Jira, Slack, and Generative AI tools",
+  "Collaborated with engineering and product teams translating customer pain into platform improvements",
+]
+
+[[experience]]
+title = "Solutions Architect"
+company = "Keywords US Holdings Inc (Helpshift) · US"
+start = "May 2021"
+end = "Dec 2023"
+context = ""
+bullets = [
+  "Designed and launched AI-driven automation tool generating $1M+ in new ARR within 12 months",
+  "Accelerated enterprise customer onboarding by 18% through streamlined integration workflows",
+  "Developed custom API connectors reducing integration setup time by 50%",
+  "Delivered high-value POCs securing up to $100K per engagement in additional revenue",
+  "Built scalable data architecture enabling real-time business intelligence across customer success teams",
+  "Aligned AWS and Azure cloud solutions with enterprise business objectives across strategic accounts",
+]
+
+[[experience]]
+title = "Sr. Technical Support Engineer"
+company = "Helpshift Technologies Pvt. Ltd. · India"
+start = "Feb 2019"
+end = "Apr 2021"
+context = ""
+bullets = [
+  "Developed Python automation tools reducing manual support workload by 40%",
+  "Served as primary SDK integration expert for iOS and Android, resolving 95% of integration challenges",
+  "Built internal training and mentorship programs reducing team onboarding time by 30%",
+]
+
+[[experience]]
+title = "Software Engineer"
+company = "Synacor Inc (Zimbra) · India"
+start = "Aug 2018"
+end = "Feb 2019"
+context = ""
+bullets = [
+  "Automated 95% of the software release lifecycle cutting deployment errors by 60%",
+  "Migrated legacy components to modern cloud infrastructure",
+  "Reduced regression failures by 35% through QA collaboration",
+]
+
+[[experience]]
+title = "Technical Support Engineer"
+company = "Zimbra India Pvt. Ltd. · India"
+start = "Dec 2015"
+end = "Jul 2018"
+context = ""
+bullets = [
+  "Resolved escalations for enterprise clients with 20K to 1M+ users at 99.9% uptime",
+  "Designed automation scripts reducing troubleshooting time by 40%",
+  "Built training programs reducing new hire ramp-up time by 25%",
+]
+
+[[experience]]
+title = "System Administrator"
+company = "I2K2 Networks Pvt. Ltd. · India"
+start = "Aug 2015"
+end = "Nov 2015"
+context = ""
+bullets = [
+  "Optimized LDAP directory services improving authentication efficiency",
+  "Automated cloud server deployments reducing manual setup time by 50%",
+]
+
+[[experience]]
+title = "Systems Engineer"
+company = "Tetra Information Services Pvt. Ltd. · India"
+start = "Jan 2013"
+end = "Aug 2015"
+context = ""
+bullets = [
+  "Deployed high-availability clusters for government and banking institutions at 24/7 uptime",
+  "Automated server migrations reducing downtime by 45%",
+]
+
+[[ip]]
+name = "NXS — Nexovia Delivery Sovereignty Standard"
+meta = "github.com/nex-ovia/NXS · Apache 2.0 · Open Source"
+description = "An open source standard for building AI-era solutions that remain fully owned, understood, and portable. Defines 4 rules, 7 completion criteria, and 4 measurable delivery metrics applicable to any team regardless of technical level."
+
+[[ip]]
+name = "Nex-Ovia Platform"
+meta = "github.com/nex-ovia · In active development"
+description = "A distributed, agent-agnostic delivery platform built on NXS. Current tools include nx-mem (sovereign memory across AI agents and humans) and nx-viz (interactive project visualization from manifest TOML)."
+
+[[skill_group]]
+category = "Leadership"
+items = "Team Building and Mentoring, Strategic Planning, Cross-functional Leadership, Delivery Governance, Enterprise Digital Transformation"
+
+[[skill_group]]
+category = "AI and Automation"
+items = "Agentic AI, LLM Deployment, Generative AI, AI-Driven Process Optimization, Smart Workflow Automation, Predictive Analytics"
+
+[[skill_group]]
+category = "Cloud and DevOps"
+items = "AWS (Solutions Architect), Azure, Terraform, Docker, Kubernetes, GitHub Actions, Linux Administration"
+
+[[skill_group]]
+category = "Programming"
+items = "Python, JavaScript, Node.js, Shell Scripting (Bash, Awk, Sed)"
+
+[[skill_group]]
+category = "Data"
+items = "MySQL, PostgreSQL, MongoDB, Redis, BigQuery, Azure Synapse, ELK Stack, Prometheus, Grafana"
+
+[[skill_group]]
+category = "Integrations"
+items = "Salesforce, Zendesk, Jira, Slack, REST APIs, Webhooks, SDK Integration (iOS, Android)"
+
+[[certification]]
+name = "AWS Certified Solutions Architect Associate"
+
+[[certification]]
+name = "Microsoft Azure Fundamentals"
+
+[[certification]]
+name = "Oracle Database SQL Certified Expert"
+
+[[certification]]
+name = "Red Hat Certified Engineer (RHCE)"
+
+[[certification]]
+name = "ITIL Foundation Certified"
+
+[[certification]]
+name = "Certified Agile Leader"
+
+[education]
+degree = "Bachelor of Engineering, Computer Science"
+institution = "Invertis Institute of Engineering and Technology"
+years = "2008 — 2012"
+
+[languages]
+list = "English (Professional) · Hindi (Native)"
