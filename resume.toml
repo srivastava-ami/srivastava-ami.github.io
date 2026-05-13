@@ -7,8 +7,21 @@ github = "github.com/nex-ovia"
 tag = "CX Engineering Leader · Author of NXS · Building Nex-Ovia"
 
 [summary]
-text = "I build the systems and teams that make enterprise software delivery actually work. 13 years across implementation, solutions engineering, and customer success at global SaaS companies, building and mentoring technical teams across continents and driving $1M+ in recurring ARR through AI automation and delivery engineering. Author of NXS, an open source standard I built because I got tired of seeing the same delivery problems repeat everywhere."
+text = '''
+I build the systems and teams that make enterprise software delivery actually work.
 
+13 years across implementation, solutions engineering, and customer success at global SaaS companies. I build and mentor technical teams across continents and drive $1M+ in recurring ARR through AI automation and delivery engineering.
+
+What I do differently: I sit at the exact intersection of deep technical execution and customer relationship leadership. Engineers trust me to understand the work. Customers trust me to own the outcome. Non-technical leaders trust me to make it visible.
+
+I wrote NXS because most enterprise implementations fail the same way. Something gets built, the person who built it moves on, and nobody left can explain, maintain, or extend what was delivered.
+
+NXS fixes that. https://github.com/nex-ovia/NXS
+
+My foundation is hands-on. Linux systems, open source infrastructure, software engineering. Which is why I build standards grounded in how systems actually work, not how they look on a slide.
+
+Currently building Nex-Ovia, a distributed, agent-agnostic delivery platform built on NXS.
+'''
 [[impact]]
 number = "$1M+ ARR"
 label = "Recurring revenue protected and grown"
