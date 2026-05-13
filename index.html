@@ -6,9 +6,9 @@
 <meta name="robots" content="index, follow">
 <meta name="author" content="Amit Srivastava">
 <title>Amit Srivastava — CX Engineering Leader</title>
-<meta name="description" content="CX Engineering Leader. Author of NXS. Building Nex-Ovia.">
+<meta name="description" content="I build the systems and teams that make enterprise software delivery actually work. Author of NXS. Building Nex-Ovia.">
 <meta property="og:type" content="profile">
-<meta property="og:title" content="Amit Srivastava — CX Engineering Leader">
+<meta property="og:title" content="Amit Srivastava — CX Engineering Leader · Author of NXS">
 <meta property="og:description" content="I build the systems and teams that make enterprise software delivery actually work.">
 <meta property="og:url" content="https://amitsrivastava.com">
 <meta name="twitter:card" content="summary">
@@ -24,12 +24,18 @@
   "sameAs": [
     "https://linkedin.com/in/srivastava-ami",
     "https://github.com/nex-ovia"
-  ]
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Sacramento",
+    "addressRegion": "CA",
+    "addressCountry": "US"
+  }
 }
 </script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Outfit:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Outfit:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -40,10 +46,11 @@
     <div class="nav-links">
       <a href="#experience">Experience</a>
       <a href="#ip">IP</a>
+      <a href="#github">GitHub</a>
       <a href="#skills">Skills</a>
-      <a href="https://github.com/nex-ovia" target="_blank">GitHub</a>
-      <a href="https://linkedin.com/in/srivastava-ami" target="_blank">LinkedIn</a>
-      <a href="https://www.nex-ovia.com" target="_blank" class="nav-cta">Nex-Ovia</a>
+      <a href="https://github.com/nex-ovia" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://linkedin.com/in/srivastava-ami" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://nex-ovia.com" target="_blank" rel="noopener" class="nav-cta">Nex-Ovia</a>
     </div>
   </div>
 </nav>
@@ -51,15 +58,19 @@
 <header class="hero">
   <div class="hero-glow"></div>
   <div class="hero-glow-2"></div>
-  <div class="container">
-    <div class="hero-eyebrow" id="hero-eyebrow">Loading...</div>
-    <h1 id="hero-name">Amit Srivastava</h1>
-    <p class="hero-summary" id="hero-summary"></p>
-    <div class="hero-contact" id="hero-contact"></div>
-    <div class="hero-actions">
-      <a href="https://github.com/nex-ovia/NXS" target="_blank" class="btn btn-primary">Explore NXS</a>
-      <a href="https://linkedin.com/in/srivastava-ami" target="_blank" class="btn btn-secondary">Connect on LinkedIn</a>
-      <a href="https://github.com/sponsors/nex-ovia" target="_blank" class="btn btn-ghost">Sponsor Nex-Ovia</a>
+  <div class="hero-inner">
+    <div class="hero-left">
+      <div class="hero-eyebrow" id="hero-eyebrow">Loading...</div>
+      <h1 id="hero-name">Amit Srivastava</h1>
+    </div>
+    <div class="hero-right">
+      <p class="hero-summary" id="hero-summary"></p>
+      <div class="hero-contact" id="hero-contact"></div>
+      <div class="hero-actions">
+        <a href="https://github.com/nex-ovia/NXS" target="_blank" rel="noopener" class="btn btn-primary">Explore NXS →</a>
+        <a href="https://linkedin.com/in/srivastava-ami" target="_blank" rel="noopener" class="btn btn-secondary">Connect on LinkedIn</a>
+        <a href="https://github.com/sponsors/nex-ovia" target="_blank" rel="noopener" class="btn btn-ghost">Sponsor Nex-Ovia</a>
+      </div>
     </div>
   </div>
   <div class="hero-scroll">
@@ -70,36 +81,107 @@
 
 <div class="impact-bar" id="impact-bar"></div>
 
-<main class="container">
+<main>
 
-  <section class="section reveal" id="experience">
-    <div class="section-label">Experience</div>
-    <div id="experience-list"></div>
+  <section class="section" id="experience">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-num">01</div>
+        <div class="section-label">Experience</div>
+      </div>
+      <div id="experience-list"></div>
+    </div>
   </section>
 
-  <section class="section reveal" id="ip">
-    <div class="section-label">Intellectual Property</div>
-    <div class="ip-grid" id="ip-list"></div>
+  <section class="section section-alt" id="ip">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-num">02</div>
+        <div class="section-label">Intellectual Property</div>
+      </div>
+      <div class="ip-grid reveal" id="ip-list"></div>
+    </div>
   </section>
 
-  <section class="section reveal" id="skills">
-    <div class="section-label">Skills</div>
-    <div class="skills-grid" id="skills-list"></div>
+  <section class="section" id="github">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-num">03</div>
+        <div class="section-label">GitHub</div>
+      </div>
+      <div class="github-content reveal">
+        <div class="github-contrib">
+          <div class="github-sub-label">Contribution Activity</div>
+          <img
+            src="https://ghchart.rshah.org/b8892a/srivastava-ami"
+            alt="Amit Srivastava GitHub contribution graph"
+            class="contrib-graph"
+          >
+        </div>
+        <div class="github-repos">
+          <div class="github-sub-label">Pinned Repositories</div>
+          <div class="pinned-grid">
+            <a href="https://github.com/nex-ovia/NXS" target="_blank" rel="noopener" class="pinned-card">
+              <div class="pinned-icon">📦</div>
+              <div class="pinned-name">nex-ovia / NXS</div>
+              <div class="pinned-desc">The Nexovia Delivery Sovereignty Standard. Build it once. Own it forever.</div>
+              <div class="pinned-meta"><span class="lang-dot md"></span> Markdown · Apache 2.0</div>
+            </a>
+            <a href="https://github.com/nex-ovia/nx-mem" target="_blank" rel="noopener" class="pinned-card">
+              <div class="pinned-icon">🧠</div>
+              <div class="pinned-name">nex-ovia / nx-mem</div>
+              <div class="pinned-desc">Sovereign memory layer for AI agents and humans. Built on NXS.</div>
+              <div class="pinned-meta"><span class="lang-dot go"></span> Go · Active</div>
+            </a>
+            <a href="https://github.com/nex-ovia/nx-viz" target="_blank" rel="noopener" class="pinned-card">
+              <div class="pinned-icon">📊</div>
+              <div class="pinned-name">nex-ovia / nx-viz</div>
+              <div class="pinned-desc">Interactive project visualization from manifest TOML. Built on NXS.</div>
+              <div class="pinned-meta"><span class="lang-dot rust"></span> Rust · Active</div>
+            </a>
+            <a href="https://github.com/srivastava-ami/srivastava-ami.github.io" target="_blank" rel="noopener" class="pinned-card">
+              <div class="pinned-icon">🌐</div>
+              <div class="pinned-name">srivastava-ami.github.io</div>
+              <div class="pinned-desc">Personal brand site. TOML-driven, no build step. System dark and light mode.</div>
+              <div class="pinned-meta"><span class="lang-dot html"></span> HTML · Live</div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 
-  <section class="section reveal" id="certifications">
-    <div class="section-label">Certifications</div>
-    <div class="cert-list" id="cert-list"></div>
+  <section class="section section-alt" id="skills">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-num">04</div>
+        <div class="section-label">Skills</div>
+      </div>
+      <div class="skills-grid reveal" id="skills-list"></div>
+    </div>
   </section>
 
-  <section class="section reveal" id="education">
-    <div class="section-label">Education</div>
-    <div id="education-content"></div>
+  <section class="section" id="certifications">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-num">05</div>
+        <div class="section-label">Certifications</div>
+      </div>
+      <div class="cert-list reveal" id="cert-list"></div>
+    </div>
   </section>
 
-  <section class="section reveal" id="languages">
-    <div class="section-label">Languages</div>
-    <div id="languages-content"></div>
+  <section class="section section-alt" id="education">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-num">06</div>
+        <div class="section-label">Education &amp; Languages</div>
+      </div>
+      <div class="edu-lang-grid reveal">
+        <div id="education-content"></div>
+        <div id="languages-content"></div>
+      </div>
+    </div>
   </section>
 
 </main>
@@ -108,10 +190,10 @@
   <div class="container footer-inner">
     <div class="footer-brand">Amit Srivastava</div>
     <div class="footer-links">
-      <a href="https://github.com/nex-ovia/NXS" target="_blank">NXS Standard</a>
-      <a href="https://www.nex-ovia.com" target="_blank">Nex-Ovia</a>
-      <a href="https://github.com/nex-ovia" target="_blank">GitHub</a>
-      <a href="https://linkedin.com/in/srivastava-ami" target="_blank">LinkedIn</a>
+      <a href="https://github.com/nex-ovia/NXS" target="_blank" rel="noopener">NXS Standard</a>
+      <a href="https://nex-ovia.com" target="_blank" rel="noopener">Nex-Ovia</a>
+      <a href="https://github.com/nex-ovia" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://linkedin.com/in/srivastava-ami" target="_blank" rel="noopener">LinkedIn</a>
     </div>
     <div class="footer-copy">Apache 2.0 · NXS v1.0</div>
   </div>
